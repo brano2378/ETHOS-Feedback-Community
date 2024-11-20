@@ -148,7 +148,13 @@ end
 local icon = lcd.loadMask("srx.png")
 
 local function init()
-  system.registerSystemTool({name=name, icon=icon, create=create, wakeup=wakeup})
+  if system.registerDeviceConfig then
+    system.registerDeviceConfig({category=DEVICE_CATEGORY_RECEIVERS, name="SRX Stable", bitmap="srx.png", appId=0x0C30, pages={
+      {name=name, create=create, wakeup=wakeup}
+    }, version="1.5.19"})
+  else
+    system.registerSystemTool({name=name, icon=icon, create=create, wakeup=wakeup})
+  end
 end
 
 return {init=init}

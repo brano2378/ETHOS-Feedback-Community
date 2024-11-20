@@ -255,7 +255,13 @@ end
 local icon = lcd.loadMask("rb35.png")
 
 local function init()
-  system.registerSystemTool({name=name, icon=icon, create=create, wakeup=wakeup, event=event, close=close})
+  if system.registerDeviceConfig then
+    system.registerDeviceConfig({category=DEVICE_CATEGORY_FLIGHT_SAFE, name="RB35S Stab", bitmap="rb35.png", appIdStart=0xF00, appIdEnd=0xF0F, pages={
+      {name=name, create=create, wakeup=wakeup, event=event, close=close}
+    }, version="1.5.19"})
+  else
+    system.registerSystemTool({name=name, icon=icon, create=create, wakeup=wakeup, event=event, close=close})
+  end
 end
 
 return {init=init}

@@ -113,7 +113,7 @@ local icon = lcd.loadMask("srx.png")
 
 local function init()
   if system.registerDeviceConfig then
-    system.registerDeviceConfig({category=DEVICE_CATEGORY_RECEIVERS, name="ESC", bitmap=icon, appId=0x0C30, pages={
+    system.registerDeviceConfig({category=DEVICE_CATEGORY_RECEIVERS, name="SRX Calibration", bitmap="srx.png", appId=0x0C30, pages={
       {name=name, create=create, paint=paint, wakeup=wakeup}
     }, version="1.5.19"})
   else
