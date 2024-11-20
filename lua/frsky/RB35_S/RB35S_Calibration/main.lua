@@ -41,7 +41,7 @@ local function create()
 
   local sensor = sport.getSensor({appIdStart=0xF00, appIdEnd=0xF0F});
 
-  bitmap = lcd.loadBitmap("/scripts/RB35S_Calibration/cali_"..step..".png")
+  bitmap = lcd.loadBitmap("cali_"..step..".png")
 
   return {sensor=sensor}
 end
@@ -92,11 +92,11 @@ local function wakeup(widget)
         if fieldId == 0x60 then
           if step == 5 then
             calibrationState = CALIBRATION_OK
-            bitmap = lcd.loadBitmap("/scripts/RB35S_Calibration/cali_ok.png")
+            bitmap = lcd.loadBitmap("cali_ok.png")
           else
             calibrationState = CALIBRATION_INIT
             step = (step + 1) % 6
-            bitmap = lcd.loadBitmap("/scripts/RB35S_Calibration/cali_"..step..".png")
+            bitmap = lcd.loadBitmap("cali_"..step..".png")
           end
           lcd.invalidate()
         end
