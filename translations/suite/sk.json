@@ -10,23 +10,23 @@
         "InstallerHasBeenDownloaded": "Sťahovanie inštalátora dokončené. Chcete spustiť inštalaciu teraz?",
         "VerifyingInstallation": "Verifikácia inštalácie ...",
         "NoUpdateAvailable": "Žiadna aktualizácia k dispozícii. Používate aktuálnu verziu."
-   },
+    },
     "FirstUseGuide": {
         "FirstUseGuide": "Sprievodca prvým použitím",
         "UserTips": "Tipy:",
         "BootloaderMinVersion": "Ak chcete používať aplikáciu Ethos Suite s rádiom FrSky, bootloader rádia musí mať verziu <b>{{ value }}</b> nebo novější.",
         "CheckBootloaderVersion": "Stlačním a podržaním tlačidla [ENTER] na rádiu a zároveň stlačením tlačidla Power On vstúpite do režimu bootloadera. Pokiaľ se na obrazovke bootloaderu zobrazí verzia 1.2.10 alebo novšia, rádio je pripravené na pripojenie k Ethos Suite pomocou USB kábla.",
         "UpdateBootloader": "Pokiaľ je verzia bootloaderu staršia ako 1.2.10, tak je potrebné pripojiť vypnuté rádio pomocou USB kábla k Ethos Suite. Pre upgrade bootloaderu použite Ethos Suite DFU flasher."
-  },
+    },
     "Welcome": {
         "WelcomeToEthosSuite": "Vitajte v Ethos Suite",
         "P1": "Pred spustením aktualizácie firmwéru zálohujte súbory model.bin a radio.bin. Ethos Suite vykoná konverziu modelu zo staršej na novšiu, ale nie naopak. Zálohované súbory sú potrebné na návrat k predchádzajúcim verziám verzím.",
         "P2": "Po aktualizácii skontrolujte nastavenie modelu pred letom, aby ste se uistili, že všetko funguje správne.",
         "LatestRelease": "Aktuálne vydanie"
-  },
+    },
     "UpdateNews": {
         "UpdateNews": "Novinky aktualizácie"
-  },
+    },
     "ToolCommon": {
         "FatalErrorOccurred": "Vyskytla sa závažná chyba",
         "ErrorLoggedTo": "Chyby boli zapísané do protokolu o zlyhaní, ktorý sa nachádza v priečinku {{ path }}. Ak toto dialógové okno nemôžete zatvoriť, reštartujte Ethos Suite.",
