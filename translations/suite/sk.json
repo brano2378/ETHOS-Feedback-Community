@@ -1,6 +1,6 @@
 {
-   "Language": "Slovenčina",
-   "MainPage": {
+    "Language": "Slovenčina",
+    "MainPage": {
         "Welcome": "Vitajte",
         "Radio": "Rádio",
         "Tools": "Nástroje",
@@ -10,7 +10,7 @@
         "InstallerHasBeenDownloaded": "Sťahovanie inštalátora dokončené. Chcete spustiť inštalaciu teraz?",
         "VerifyingInstallation": "Verifikácia inštalácie ...",
         "NoUpdateAvailable": "Žiadna aktualizácia k dispozícii. Používate aktuálnu verziu."
-  },
+   },
     "FirstUseGuide": {
         "FirstUseGuide": "Sprievodca prvým použitím",
         "UserTips": "Tipy:",
