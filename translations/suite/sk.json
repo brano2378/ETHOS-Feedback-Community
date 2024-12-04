@@ -194,6 +194,7 @@
         "RepairNotCompleted": "Oprava neúspešná!",
         "Confirm": "Prosím potvrďte!",
         "ConfirmFormat": "Táto operácia odstráni všetky dáta z interného úložiska. Prosím vytvorte zálohy pre modely a nastavenia rádia. Chcete pokračovať vo formátovaní?",
+        "ConfirmRestore": "Esta operação irá excluir todas as configurações do seu rádio. Por favor, certifique-se de ter feito backup das configurações do seu rádio. Você deseja continuar restaurando?",
         "BootloaderNotSupport": "Táto operácia je podporovaná len od verzie bootloadera 1.4.0. Prosím aktualizujte bootloader.",
         "FactorySettingTitle": "Obnoviť továrenské nastavenia",
         "FactorySettingSubTitle": "Obnovenie rádia do továrenských nastavení.",
