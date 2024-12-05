@@ -50,7 +50,7 @@
         "UserBitmaps": "Užívateľské Bitmaps",
         "Scripts": "Skripty",
         "Models": "Modely",
-        "Logs": "Logy"
+        "Logs": "Logy",
         "Screenshots": "Obrazovky",
         "Bootloader": "Bootloader",
         "FRSKFile": ".frsk súbor",
@@ -99,7 +99,7 @@
         "PlatformNotSupported": "Platforma nie je podporovaná!",
         "OpenDirectory": "Otvoriť adresár",
         "SelectAll": "Vybrať všetko",
-        "UnselectAll": "Zrušiť všetko"
+        "UnselectAll": "Zrušiť všetko",
         "Refresh": "Obnoviť",
         "SystemFiles": "Systémové súbory",
         "Dismiss": "Zamietnuté"
